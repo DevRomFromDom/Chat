@@ -1,3 +1,4 @@
 # Specify filepatterns you want git to ignore.
-
-node_modules
+mongoDB
+server/node_modules
+.env

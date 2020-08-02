@@ -1,0 +1,21 @@
+.messageContainer{
+  background-color: green;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.messageInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.messageText{ 
+  padding: 10px;
+  padding-right: 10px;
+}
+.messageTime{
+ padding-right: 5px;
+}
+.userName{
+padding-left: 5px;
+}

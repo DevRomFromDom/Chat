@@ -1,0 +1,36 @@
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #eaeaf3;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #ffffff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 3px;
+    height: 100%;
+    width: 100%;
+}
+.chatInput {
+    display: block;
+    position: fixed;
+    padding-left: 10px;
+    height: 30px;
+    position: relative;
+    border-radius: 5px;
+    min-height: 40px;
+    opacity: 0.5;
+    outline: none;
+}
+
+@media (min-width:1025px) {
+  .container {
+    width: 900px;
+  }
+}

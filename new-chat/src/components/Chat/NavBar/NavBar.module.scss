@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(48, 136, 252);
+    padding:0 1rem;
+    border-bottom: 50%;
+    margin: 0;
+    align-items: center;
+    min-height: 50px;
+    width: 100%;
+}
+.icon {
+    display: absolute;
+    height: 1.7rem;
+    width: 1.7rem;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.6;
+    }
+    
+}
+.userInfo {
+    
+}
